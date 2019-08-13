@@ -356,7 +356,7 @@ class RR {
 
         DecimalFormat df = new DecimalFormat("0.0");
 
-        System.out.println("RR " + df.format(MTretorno) + " " + df.format(MTresposta) + " " + df.format(MTespera));
+        System.out.print("RR " + df.format(MTretorno) + " " + df.format(MTresposta) + " " + df.format(MTespera));
     }
 
     public ArrayList<Processo> swap(ArrayList<Processo> processos) {
